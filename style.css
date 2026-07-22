@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #272b41;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    padding: 20px 0;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #4F8EF7;
+    font-size: 30px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #4F8EF7;
+}
+.hero{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h4{
+    color: #4F8EF7;
+    margin-bottom: 10px;
+}
+.hero h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.hero h3{
+    color: #4F8EF7;
+    margin-bottom: 20px;
+}
+.hero p{
+    width: 60%;
+    margin: auto;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4F8EF7;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #2f73eb;
+}
+
+
+
+/* ==========================
+   About Section
+========================== */
+
+.about{
+    padding: 80px 0;
+}
+.about{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about h2{
+    text-align: center;
+    color: #4F8EF7;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.about hr{
+    width: 80px;
+    margin: auto;
+    border: 2px solid #4F8EF7;
+    margin-bottom: 30px;
+}
+
+.about p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.about h3{
+    text-align: center;
+    color: #4F8EF7;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+
+.skills{
+    padding-top: 500px;
+    padding-bottom: 600px;
+    text-align: center;
+}
+
+.skills h2{
+    color: #4F8EF7;
+    margin-bottom: 10px;
+}
+
+.skills hr{
+    width: 60px;
+    margin: auto;
+    border: 1px solid #4F8EF7;
+    margin-bottom: 30px;
+}
+
+.skill-box{
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    width: 120px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #1b1b1b;
+    border: 1px solid #4F8EF7;
+    color: white;
+    border-radius: 5px;
+}
+/* Contact Section */
+
+.contact{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact h2{
+    color: #4F8EF7;
+    margin-bottom: 10px;
+}
+
+.contact hr{
+    width: 60px;
+    margin: auto;
+    border: 1px solid #4F8EF7;
+    margin-bottom: 25px;
+}
+
+.contact p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+/* Footer */
+
+footer{
+    background-color: #1B263B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
